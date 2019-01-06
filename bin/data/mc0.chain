@@ -1,0 +1,61 @@
+# first node of the chain, 2 is kick
+(first)
+1
+
+(messages)
+-
+1
+-   1
+-   -   1
+-   -   -   1
+-   -   -   -   1
+-   -   -   -   -   1
+-   -   -   -   -   -   1
+-   -   -   -   -   -   -   1
+(chances)
+#ghost  tonic   II      III     IV      V       VI      VII     VIII
+0       0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+0.3	    0.3 	0.1		0.1		0.1	    0.1     0.1     0.1     0.1
+0.2  	0.3		0.1 	0.3     0.3     0.3     0.3     0.3     0.3
+0.2     0.3		0.3 	0.1	    0.3     0.3     0.3     0.3     0.3     
+0.2		0.3		0.3 	0.3 	0.1     0.3 	0.3 	0.3 	0.3 	
+0.2 	0.3		0.3 	0.3 	0.3 	0.1     0.3 	0.3     0.3  		
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.1     0.3 	0.3 	
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.1     0.3
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.3 	0.1
+# the (first), (messages), and (chances) lines are needed for correct parsing
+
+#ghost  tonic   II      III     IV      V       VI      VII     VIII
+#sgo     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+#0.1	    sto 	0.1		0.1		0.1	    0.1     0.1     0.1     0.1
+#tgo  	tto		ose 	oto     oto     oto     oto     oto     oto
+#tgo     tto		oto 	ose	    oto     oto     oto     oto     oto     
+#tgo		tto		oto 	oto 	ose     oto 	oto 	oto 	oto 	
+#tgo 	tto		oto 	oto 	oto 	ose     oto 	oto     oto  		
+#tgo		tto		oto 	oto 	oto 	oto 	ose     oto 	oto 	
+#tgo		tto		oto 	oto 	oto 	oto 	oto 	ose     oto
+#tgo		tto		oto 	oto 	oto 	oto 	oto 	oto 	ose
+
+#ghost  tonic   II      III     IV      V       VI      VII     VIII
+#0       0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+#0.3	 0.3 	0.1		0.1		0.1	    0.1     0.1     0.1     0.1
+#tgo  	0.3		0.1 	0.3     0.3     0.3     0.3     0.3     0.3
+#tgo     0.3		0.3 	0.1	    0.3     0.3     0.3     0.3     0.3     
+#tgo		0.3		0.3 	0.3 	0.1     0.3 	0.3 	0.3 	0.3 	
+#tgo 	0.3		0.3 	0.3 	0.3 	0.1     0.3 	0.3     0.3  		
+#tgo		0.3		0.3 	0.3 	0.3 	0.3 	0.1     0.3 	0.3 	
+#tgo		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.1     0.3
+#tgo		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.3 	0.1
+
+#ghost  tonic   II      III     IV      V       VI      VII     VIII
+0       0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+0.3	    0.3 	0.1		0.1		0.1	    0.1     0.1     0.1     0.1
+0.2  	0.3		0.1 	0.3     0.3     0.3     0.3     0.3     0.3
+0.2     0.3		0.3 	0.1	    0.3     0.3     0.3     0.3     0.3     
+0.2		0.3		0.3 	0.3 	0.1     0.3 	0.3 	0.3 	0.3 	
+0.2 	0.3		0.3 	0.3 	0.3 	0.1     0.3 	0.3     0.3  		
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.1     0.3 	0.3 	
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.1     0.3
+0.2		0.3		0.3 	0.3 	0.3 	0.3 	0.3 	0.3 	0.1
+
+#test: ose = 0.1 oto= 0.3

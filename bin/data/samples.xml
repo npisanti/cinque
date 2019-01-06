@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<samples>
+	<please_label_me_0>
+		<load>0</load>
+		<sample>gridrideF.wav</sample>
+		<path>/home/nick/data/my_samples/grid_ride/gridrideF.wav</path>
+	</please_label_me_0>
+	<please_label_me_1>
+		<load>0</load>
+		<sample>demons_noise.wav</sample>
+		<path>/home/nick/data/my_samples/demons_noise.wav</path>
+	</please_label_me_1>
+	<please_label_me_2>
+		<load>0</load>
+		<sample>beer_16bit.wav</sample>
+		<path>/home/nick/data/my_samples/beer_16bit.wav</path>
+	</please_label_me_2>
+</samples>
